@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=95b282f87600"
   },
   "keywords": [],
   "author": "",
@@ -31,5 +32,7 @@
     "@types/react": "^18.0.37",
     "storybook": "^7.0.5",
     "typescript": "^5.0.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@dainemawer/site-two@1.0.0"
 }

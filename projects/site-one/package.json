@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=b26b25b8f1f3"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +29,7 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.0.5",
     "typescript": "^5.0.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@dainemawer/site-one@1.0.0"
 }

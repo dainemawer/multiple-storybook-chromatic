@@ -1,6 +1,8 @@
 const Button = ({ type, children }) => {
     return (
-        <button type={type}>{children}</button>
+        <button type={type}>
+            {children && <span>{children}</span>}
+        </button>
     )
 }
 
