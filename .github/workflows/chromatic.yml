@@ -25,6 +25,7 @@ jobs:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_SITE_ONE_TOKEN }}
           workingDir: projects/site-one
+          buildScriptName: storybook:site-one
       - name: Site 2 to Chromatic
         uses: chromaui/action@v1
         # Chromatic GitHub Action options
@@ -32,3 +33,4 @@ jobs:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_SITE_TWO_TOKEN }}
           workingDir: projects/site-two
+          buildScriptName: storybook:site-two
