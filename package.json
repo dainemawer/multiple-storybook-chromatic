@@ -1,0 +1,25 @@
+{
+  "name": "multiple-storybooks",
+  "version": "1.0.0",
+  "description": "Multiple Storybooks with Chromatic",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:site-one": "npm run dev -w=@dainemawer/site-one",
+    "dev:site-two": "npm run dev -w=@dainemawer/site-two"
+  },
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "engines": {
+    "node": ">=16.15.0",
+    "npm": ">=8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromatic": "^6.17.3"
+  }
+}
