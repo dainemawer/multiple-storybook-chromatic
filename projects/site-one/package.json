@@ -10,7 +10,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "storybook:site-one": "storybook build --storybook_theme=site-one",
+    "storybook:site-one": "storybook build --loglevel silly",
     "chromatic": "npx chromatic --project-token=b26b25b8f1f3"
   },
   "keywords": [],
